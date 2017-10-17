@@ -5,9 +5,9 @@ import AddEntry from './components/AddEntry'
 export default class App extends React.Component {
   render() {
     return (
-      <View>
+      <View >
         <AddEntry />
       </View>
-    )
+    );
   }
 }
