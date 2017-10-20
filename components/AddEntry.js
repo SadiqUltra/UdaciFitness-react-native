@@ -68,7 +68,7 @@ export default class extends Component {
 
     // Navigate to home
 
-    // Save to 'DB'
+    submitEntry({key, entry})
 
     // Clearn local notification
   }
@@ -80,7 +80,7 @@ export default class extends Component {
 
     // Route to home
 
-    // Update "DB"
+    removeEntry(key)
   }
 
   render() {
