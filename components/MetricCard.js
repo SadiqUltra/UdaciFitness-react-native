@@ -9,10 +9,10 @@ export default function MetricCard ({ date, metrics }){
     <View>
       {date && <DateHeader date={date}/>}
       {Object.keys(metrics).map((metric) => {
-        const { getIcon, displayName, unit, backgroundColor } = getMetricMetaInfo(metic)
+        const { getIcon, displayName, unit, backgroundColor } = getMetricMetaInfo(metric)
 
         return (
-            <View style={style.metic} key={metric}>
+            <View style={styles.metric} key={metric}>
               {getIcon()}
               <View>
                 <Text style={{fontSize: 20}}>
